@@ -33,3 +33,72 @@ body{
 #social-bar{
     text-align: right;
 }
+
+/*corpo do site*/
+
+#body{
+    text-align: center;
+}
+
+#google-logo{
+    padding-top: 7%;
+    margin-bottom: 25px;
+}
+
+#input-box{
+    width: 43vw;
+    height: 60px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-input{
+    height: 48px;
+    border-radius: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+    padding: 0 50px;
+    border: 1px solid rgb(122, 122, 122);
+    background-color: #202124;
+}
+
+#search-input:hover{
+    background-color: #303134;
+    border: 1px solid #303134;
+}
+
+#search-icon, #mic-icon, #keyboard-icon{
+    color: white;
+    position: absolute;
+    top: 15px;
+    font-size: 18px;
+}
+
+#search-icon{
+    left: 20px;
+}
+#keyboard-icon{
+    right: 55px;
+}
+#mic-icon{
+    right: 20px;
+}
+
+#body input[type="submit"]{
+    background-color: #303134;
+    border: 0;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    height: 36px;
+    width: 150px;
+    padding-top: 0 16px;
+    font-size: 14px;
+    margin: 15px 5px;
+    cursor: pointer;
+}
+
+#body input[type="submit"]:hover{
+    border: 1px solid rgb(105, 105, 105);
+}
